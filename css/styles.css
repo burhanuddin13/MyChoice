@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'ADLaMDisplay';
+  src: url('../assets/fonts/ADLaMDisplay-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
