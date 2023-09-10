@@ -1,0 +1,24 @@
+header {
+  font-family: 'GreatVibes', cursive;;
+  font-size: 40px;
+  text-align: center;
+  color: #454545;
+  background-color: #FF6000;
+  font-weight: 600;
+  padding: 10px;
+  box-shadow: #454545 0px 0px 10px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.menu-logo {
+  width: 24px;
+  height: 24px;
+  padding: 13px;
+}
