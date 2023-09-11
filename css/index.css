@@ -5,7 +5,7 @@ header {
   color: #454545;
   background-color: #FF6000;
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   box-shadow: #454545 0px 0px 10px;
   position: sticky;
   display: flex;
@@ -21,4 +21,42 @@ header {
   width: 24px;
   height: 24px;
   padding: 13px;
+}
+
+main {
+  padding: 36px 20px 20px 20px;
+}
+
+card {
+  font-family: 'JosefinSans', sans-serif;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.collapse {
+  display: none;
+}
+
+card-header {
+  display: flex block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFA559;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: #454545 0px 5px 8px 0px;
+}
+
+card-content {
+  border-top: #454545 1px solid;
+  padding: 20px;
+  background-color: #FFE6C7;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: #454545 0px 5px 8px 0px;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: 'Cardo', serif;
 }
