@@ -8,6 +8,7 @@ header {
   padding: 10px 20px 10px 20px;
   box-shadow: #454545 0px 0px 10px;
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -59,4 +60,28 @@ card-content {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   font-family: 'Cardo', serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #454545;
+  color: #FFA559;
+  bottom: 0;
+  padding: 10px;
+  font-family: 'JosefinSans';
+}
+
+a {
+  color: #FFA559;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
