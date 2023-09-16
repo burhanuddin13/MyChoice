@@ -81,7 +81,7 @@ footer {
   font-family: 'JosefinSans';
 }
 
-a {
+.footer-link {
   color: #FFA559;
   display: inline;
   margin: 0;

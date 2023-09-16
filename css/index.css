@@ -1,5 +1,4 @@
 card {
-  font-family: "JosefinSans", sans-serif;
   display: block;
   margin-bottom: 30px;
 }
@@ -14,6 +13,7 @@ card-header {
   align-items: center;
   background-color: #ffa559;
   padding: 20px;
+  font-family: "JosefinSans", sans-serif;
   font-size: 20px;
   border-radius: 30px 30px 30px 30px;
   box-shadow: #454545 0px 5px 8px 0px;
@@ -35,6 +35,21 @@ card-content {
 }
 
 card-content p {
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.logo-anchor {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+}
+
+h2 {
+  font-family: "JosefinSans", sans-serif;
+  font-size: 20px;
+  margin: 0;
   margin-bottom: 10px;
   padding: 0;
 }
