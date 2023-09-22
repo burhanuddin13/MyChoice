@@ -35,7 +35,7 @@ body {
 }
 
 header {
-  font-family: 'GreatVibes', cursive;;
+  font-family: 'GreatVibes', 'Brush Script MT', cursive;
   font-size: 40px;
   text-align: center;
   color: #454545;
@@ -78,7 +78,7 @@ footer {
   color: #FFA559;
   bottom: 0;
   padding: 10px;
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans', 'Tahoma', sans-serif;
 }
 
 .footer-link {
