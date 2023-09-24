@@ -61,7 +61,8 @@ nav {
   flex-direction: column;
   top: 70px;
   right: 20px;
-  border: #ffa559 5px solid;
+  border: #ff6000 5px solid;
+  border-radius: 5px;
   box-shadow: #454545 -7px 6px 14px 0px;
   display: none;
 }
