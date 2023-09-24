@@ -24,3 +24,21 @@ cardHeader.forEach((header, index) => {
     }
   });
 });
+
+const menuLogo = document.querySelector(".menu-logo");
+const navPanel = document.querySelector("nav");
+menuLogo.addEventListener("click", () => {
+  navPanel.style.display = navPanel.style.display == "none" ? "flex" : "none";
+})
+
+const navLinks = document.querySelectorAll(".nav-link");
+navLinks.forEach((navLink, index) => {
+  navLink.addEventListener("click", () => {
+    cardContent[index].style.display = "block";
+    cardHeader[index].style.borderRadius = "30px 30px 0px 0px";
+    expand[index].style.display = "none";
+    collapse[index].style.display = "block";
+    cardContent[index].style.maxHeight = cardContent[index].scrollHeight + "px";
+    navPanel.style.display = "none"
+  });
+});
