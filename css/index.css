@@ -63,6 +63,7 @@ nav {
   right: 20px;
   border: #ffa559 5px solid;
   box-shadow: #454545 -7px 6px 14px 0px;
+  display: none;
 }
 
 .nav-link {
