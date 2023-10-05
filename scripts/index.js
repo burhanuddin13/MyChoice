@@ -42,3 +42,9 @@ navLinks.forEach((navLink, index) => {
     navPanel.style.display = "none"
   });
 });
+
+document.addEventListener("click", (event) => {
+  if (!navPanel.contains(event.target) && !menuLogo.contains(event.target)) {
+    navPanel.style.display = "none";
+  }
+})
