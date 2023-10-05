@@ -27,22 +27,29 @@
   src: url('../assets/fonts/Cardo-Italic.ttf');
 }
 
+:root {
+  --primary-color: #FF6000;
+  --secondary-color: #FFA559;
+  --background-color: #FFE6C7;
+  --text-color: #454545;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #FFE6C7;
-  color: #454545;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 header {
   font-family: 'GreatVibes', 'Brush Script MT', cursive;
   font-size: 40px;
   text-align: center;
-  color: #454545;
-  background-color: #FF6000;
+  color: var(--text-color);
+  background-color: var(--primary-color);
   font-weight: 600;
   padding: 10px 20px 10px 20px;
-  box-shadow: #454545 0px 0px 10px;
+  box-shadow: var(--text-color) 0px 0px 10px;
   position: sticky;
   top: 0;
   display: flex;
@@ -76,14 +83,14 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #454545;
-  color: #FFA559;
+  color: var(--secondary-color);
   bottom: 0;
   padding: 10px;
   font-family: 'JosefinSans', 'Tahoma', sans-serif;
 }
 
 .footer-link {
-  color: #FFA559;
+  color: var(--secondary-color);
   display: inline;
   margin: 0;
   padding: 0;
@@ -91,19 +98,19 @@ footer {
 
 nav {
   position: absolute;
-  background-color: #ffe6c7;
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   top: 70px;
   right: 20px;
-  border: #ff6000 5px solid;
+  border: var(--primary-color) 5px solid;
   border-radius: 5px;
-  box-shadow: #454545 -7px 6px 14px 0px;
+  box-shadow: var(--text-color) -7px 6px 14px 0px;
   display: none;
 }
 
 .nav-link {
-  color: #454545;
+  color: var(--text-color);
   font-family: JosefinSans, sans-serif;
   font-size: 20px;
   padding: 10px;
