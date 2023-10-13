@@ -53,3 +53,17 @@ h2 {
   margin-bottom: 10px;
   padding: 0;
 }
+
+read-time {
+  font-family: "JosefinSans", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.read-expand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
