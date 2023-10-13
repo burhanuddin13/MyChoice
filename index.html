@@ -14,7 +14,10 @@
   <body>
     <header>
       <a href="./index.html" class="logo-anchor">
-        <img src="./assets/images/BMF-Sign.svg" alt="logo" class="logo" />
+        <!-- <img src="./assets/images/BMF-Sign.svg" alt="logo" class="logo" /> -->
+        <svg class="logo" alt="logo">
+          <use xlink:href="./assets/images/BMF-Sign.svg#BMFSign"></use>
+        </svg>
       </a>
       What's My Type?
       <img
@@ -256,11 +259,14 @@
             alt="expand"
             class="expand"
           />
-          <img
+          <!-- <img
             src="./assets/icons/arrow-up.svg"
             alt="collapse"
             class="collapse"
-          />
+          /> -->
+          <svg class="collapse" alt="collapse">
+            <use xlink:href="./assets/icons/arrow-up.svg#arrowUp"></use>
+          </svg>
         </card-header>
         <card-content>
           <p>
