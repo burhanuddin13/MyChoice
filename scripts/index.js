@@ -60,5 +60,5 @@ const getReadTime = (text) => {
   const minutes = Math.floor(readTime);
   const secondsDecimal = readTime - minutes;
   const seconds = Math.round(secondsDecimal * 60);
-  return `${numberOfWords} words | Reading Time: ${minutes} min ${seconds} sec`;
+  return `Number of Words: ${numberOfWords} words \n Reading Time: ${minutes} min ${seconds} sec`;
 }

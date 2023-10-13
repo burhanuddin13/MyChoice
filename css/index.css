@@ -67,3 +67,7 @@ read-time {
   justify-content: space-between;
   align-items: center;
 }
+
+no-content {
+  opacity: 0.5;
+}
