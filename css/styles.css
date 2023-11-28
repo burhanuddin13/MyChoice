@@ -28,10 +28,10 @@
 }
 
 :root {
-  --primary-color: #FF6000;
-  --secondary-color: #FFA559;
-  --background-color: #FFE6C7;
-  --text-color: #454545;
+  --primary-color: #AA14F0;
+  --secondary-color: #BC8CF2;
+  --background-color: #EEEEEE;
+  --text-color: #000000;
 }
 
 body {
@@ -82,7 +82,7 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #454545;
+  background-color: var(--text-color);
   color: var(--secondary-color);
   bottom: 0;
   padding: 10px;
